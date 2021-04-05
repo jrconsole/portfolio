@@ -2,10 +2,9 @@ import './About.css';
 
 export function About() {
   return (
-    <>
+    <div className="about">
       <header>
-        <figure><img className='portrait' src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/cover.jpg"></img></figure>
-        <h1>Greetings!</h1>
+          <img className='portrait' src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/thinking.jpg" />
         <blockquote>"My name is Darth Vader. I am an extra-terrestrial from the planet Vulcan 🖖" - Marty McFly, BTTF</blockquote>
       </header>
       <main>
@@ -76,7 +75,7 @@ export function About() {
           </ul>
         </section>
       </main>
-    </>
+    </div>
   );
 }
 

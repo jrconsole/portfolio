@@ -2,7 +2,7 @@ import './Apps.css';
 
 export function Apps() {
   return (
-    <>
+    <div className="apps">
       <header className="noShow">
         <h1>My Apps</h1>
       </header>
@@ -107,6 +107,6 @@ export function Apps() {
           </p>
         </article>
       </main>
-    </>
+    </div>
   );
 }

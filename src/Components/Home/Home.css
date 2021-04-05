@@ -1,1 +1,28 @@
+.home header {
+    margin: 2rem;
+}
 
+.home h1 {
+    margin: 1rem 0;
+}
+
+.home header p {
+    margin: 0;
+}
+
+.home img.portrait {
+    margin-top: 1rem;
+}
+
+.home main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.home main a {
+    border: 1px solid black;
+    width: 70%;
+    height: 10vh;
+    margin: 1rem 0;
+}

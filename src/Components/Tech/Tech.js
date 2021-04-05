@@ -2,7 +2,7 @@ import './Tech.css';
 
 export function Tech() {
   return (
-    <>
+    <div className="tech">
       <header className="noShow">
         <h1>Tech</h1>
       </header>
@@ -95,6 +95,6 @@ export function Tech() {
           </ul>
         </section>
       </main>
-    </>
+    </div>
   );
 }

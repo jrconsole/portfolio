@@ -26,18 +26,21 @@ export function Nav() {
   return (
     <>
       <nav>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/Apps">Apps</Link>
-        </li>
-        <li>
-          <Link to="/Tech">Tech</Link>
-        </li>
-        <li>
-          <Link to="/About">About</Link>
-        </li>
+        <img className="portrait" src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/cover.jpg" />
+        <section>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/Apps">Apps</Link>
+          </li>
+          <li>
+            <Link to="/Tech">Tech</Link>
+          </li>
+          <li>
+            <Link to="/About">About Me</Link>
+          </li>
+        </section>
       </nav> 
 
       {renderContent()}

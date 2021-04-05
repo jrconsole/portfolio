@@ -2,11 +2,60 @@
     display: none;
 }
 
+header {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+header p {
+    font-size: 3rem;
+}
+
+header span {
+    font-size: 2rem;
+}
+
 .portrait {
     position: relative;
     border: 5px solid black;
     border-radius: 50%;
-    width: 50%;
-    height: same-as-width;
-    object-fit: cover;
+    width: 40%;
+    max-width: 15rem;
+}
+
+.smallLogo {
+    width: 3rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 3rem;
+    }
+    
+    header p {
+        font-size: 2rem;
+    }
+    
+    header span {
+        font-size: 1.5rem;
+    }
+
+    .portrait {
+        border-width: 3px;
+    }
 }

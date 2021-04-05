@@ -22,7 +22,12 @@ export function App() {
       </Router>
 
       <footer>
-        <a href="https://github.com/jrconsole" target="_blank">GitHub</a>
+        <a href="https://github.com/jrconsole" target="_blank">
+          <img 
+            title="GitHub" 
+            className="smallLogo"
+            src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/github.png" />
+        </a>
       </footer>
     </>
   );
