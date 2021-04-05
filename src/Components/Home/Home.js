@@ -6,6 +6,7 @@ export function Home() {
     <>
       <header>
         <h1>Hey, I'm Russ</h1>
+        <img className="portrait" src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/thinking.jpg" />
         <span>and</span>
         <p>I build apps!</p>
       </header>
@@ -17,7 +18,7 @@ export function Home() {
           <h2>Tech</h2>
         </Link>
         <Link to='/About'>
-          <h2>About</h2>
+          <h2>About Me</h2>
         </Link>
       </main>
     </>
