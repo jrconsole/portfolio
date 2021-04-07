@@ -2,7 +2,7 @@ import './Tech.css';
 
 export function Tech() {
   return (
-    <div className="tech">
+    <div className="content tech">
       <header className="noShow">
         <h1>Tech</h1>
       </header>
@@ -52,7 +52,7 @@ export function Tech() {
           <h2>Secondary</h2>
           <ul>
             <li>
-              <img title="Typescript" src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/typescript.png" alt="Typescript logo" /> 
+              <img title="Typescript" src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/typescript.jpg" alt="Typescript logo" /> 
               Typescript
             </li>
             <li>

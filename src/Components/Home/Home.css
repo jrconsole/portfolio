@@ -25,4 +25,21 @@
     width: 70%;
     height: 10vh;
     margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.home main a.apps {
+    background-image: url("https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/purpleCard.JPG");
+}
+
+.home main a.tech {
+    background-image: url("https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/suit.jpg");
+}
+
+.home main a.about {
+    background-image: url("https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/suit.jpg");
 }

@@ -2,7 +2,7 @@ import './About.css';
 
 export function About() {
   return (
-    <div className="about">
+    <div className="content about">
       <header>
           <img className='portrait' src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/thinking.jpg" />
         <blockquote>"My name is Darth Vader. I am an extra-terrestrial from the planet Vulcan 🖖" - Marty McFly, BTTF</blockquote>

@@ -28,8 +28,23 @@ header span {
     max-width: 15rem;
 }
 
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
 .smallLogo {
-    width: 3rem;
+    min-width: 2rem;
+    min-height: 2rem;
+    max-width: 6rem;
+    max-height: 3rem;
 }
 
 footer {
