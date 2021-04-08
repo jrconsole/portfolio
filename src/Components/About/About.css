@@ -1,1 +1,28 @@
+.about main {
+    margin: 3rem;
+}
 
+.about .centeredArea {
+    display: flex;
+    justify-content: center;
+}
+
+.about .centeredArea p {
+    text-align: center;
+    width: 50%;
+}
+
+.about section ul {
+    margin: 0 10%;
+    padding: 0;
+}
+
+.about img {
+    max-width: 10rem;
+    max-height: 10rem;
+}
+
+.about .hobbies img {
+    max-width: 30rem;
+    max-height: 30rem;
+}

@@ -1,16 +1,29 @@
+import { useEffect } from 'react';
 import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
+  useLocation,
+  withRouter
 } from "react-router-dom";
 import { Home } from '../Home/Home';
 import { Nav } from '../Nav/Nav';
+
+function _ScrollToTop(props) {
+  const { pathname } = useLocation();
+  useEffect(() => {
+      window.scrollTo(0, 0);
+  }, [pathname]);
+  return props.children
+}
+const ScrollToTop = withRouter(_ScrollToTop)
 
 export function App() {
   return (
     <>
       <Router>
+        <ScrollToTop>
           <Switch>
             <Route exact path="/">
               <Home />
@@ -19,6 +32,7 @@ export function App() {
               <Nav />
             </Route>
           </Switch>
+        </ScrollToTop>
       </Router>
 
       <footer>

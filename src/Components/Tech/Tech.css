@@ -1,1 +1,27 @@
+.tech li {
+    display: inline-flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-end;
+    /* width: 8rem; */
+    margin: 1rem 2rem;
+}
 
+.tech ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.tech section {
+    width: 70%;
+    margin-bottom: 2rem;
+}
+
+.tech main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}

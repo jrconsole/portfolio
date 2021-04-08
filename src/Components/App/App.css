@@ -47,6 +47,13 @@ a {
     max-height: 3rem;
 }
 
+.largeLogo {
+    min-width: 3rem;
+    min-height: 3rem;
+    max-width: 8rem;
+    max-height: 5rem;
+}
+
 footer {
     position: fixed;
     bottom: 0;

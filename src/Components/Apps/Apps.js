@@ -30,7 +30,7 @@ export function Apps() {
               <span>Back-End</span>
             </a>
           </section>
-          <ul className="tech">
+          <ul className="stack">
             <li>
               <img 
                 title="React"
@@ -116,7 +116,7 @@ export function Apps() {
               className="smallLogo"
               src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/github.png" />
           </a>
-          <ul className="tech">
+          <ul className="stack">
             <li>
               <img 
                 title="React"
@@ -157,7 +157,7 @@ export function Apps() {
           <a className="app genesis">
             <h2 className="noShow">Genesis</h2>
           </a>
-          <ul className="tech">
+          <ul className="stack">
             <li>
               <img 
                 title="Typescript" 

@@ -8,13 +8,15 @@ export function About() {
         <blockquote>"My name is Darth Vader. I am an extra-terrestrial from the planet Vulcan 🖖" - Marty McFly, BTTF</blockquote>
       </header>
       <main>
-        <p>
-          I'm a full-stack developer with a love for the MERNG stack. 
-          I like long walks on the beach and coding deep into the night.
-          I work hard to maintain a balance of speed, security, and user experience. 
-          Let's see what we can build together!
-        </p>
-        <section>
+        <div className="centeredArea">
+          <p>
+            I'm a full-stack developer with a love for the MERNG stack. 
+            I like long walks on the beach and coding deep into the night.
+            I work hard to maintain a balance of speed, security, and user experience. 
+            Let's see what we can build together!
+          </p>
+        </div>
+        <section className="experience">
           <h2>Experience</h2>
           <ul>
             <li>Full-Stack Developer: Genesis - Military Communications Satellite (AEHF) resource-scheduling visualization software
@@ -28,7 +30,7 @@ export function About() {
             </li>
           </ul>
         </section>
-        <section>
+        <section className="interests">
           <h2>Professional Interests</h2>
           <ul>
             <li>Education</li>
@@ -37,7 +39,7 @@ export function About() {
             <li>Decentralization</li>
           </ul>
         </section>
-        <section>
+        <section className="books">
           <h2>Favorite Books</h2>
           <ul>
             <li>The Will to Meaning - Viktor Frankl
@@ -57,7 +59,7 @@ export function About() {
             </li>
           </ul>
         </section>
-        <section>
+        <section className="hobbies">
           <h2>Hobbies</h2>
           <ul>
             <li>

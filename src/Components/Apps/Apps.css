@@ -1,19 +1,12 @@
-/* .apps main {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-} */
-
 .apps article {
     margin: 1rem;
     padding: 2rem;
-    height: 30vh;
     display: grid;
     grid-template-areas: 
         "img tech"
         "img text"
         "live code";
-    grid-template-rows: 2fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 2rem;
     align-items: center;
@@ -37,16 +30,16 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: center;
+    background-position-y: center;
 }
 
-.apps article .tech {
+.apps article .stack {
     grid-area: tech;
     align-self: flex-end;
 }
 
 .apps article .code {
     grid-area: code;
-
 }
 
 .apps article .code a {
@@ -62,6 +55,11 @@
 
 .apps article .live {
     grid-area: live;
+}
+
+.apps article .live, .apps article .code {
+    align-self: flex-start;
+    margin: 1rem
 }
 
 .apps a.app.iterate {
