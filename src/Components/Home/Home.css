@@ -4,6 +4,19 @@
 
 .home h1 {
     margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.home h1 span {
+    font-weight: lighter;
+    font-size: 4rem;
+}
+
+.home h1 img {
+    width: 40%;
 }
 
 .home header p {
@@ -18,10 +31,10 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
+    padding: 2rem;
 }
 
 .home main a {
-    border: 1px solid black;
     width: 70%;
     height: 10vh;
     margin: 1rem 0;
@@ -43,3 +56,4 @@
 .home main a.about {
     background-image: url("https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/suit.jpg");
 }
+

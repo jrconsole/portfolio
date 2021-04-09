@@ -12,7 +12,9 @@ export function Apps() {
             className="app iterate"
             href="https://iterate-client-dev-d9tpp.ondigitalocean.app/" 
             target="_blank">
-            <h2>Iterate</h2>
+            <div className="darkBack">
+              <h2>Iterate</h2>
+            </div>
           </a>
           <section className="code">
             <a href="https://github.com/jrconsole/iterate-client" target="_blank">
@@ -108,7 +110,9 @@ export function Apps() {
             className="app violestates"
             href="https://violestates.herokuapp.com/" 
             target="_blank">
-            <h2>Violestates</h2>
+            <div className="darkBack">
+              <h2>Violestates</h2>
+            </div>
           </a>
           <a className="code" href="https://github.com/jrconsole/violestates" target="_blank">
             <img 
@@ -147,7 +151,7 @@ export function Apps() {
             </li>
           </ul>
           <p className="text">
-            This app was built by myself (Russ) with owners/operators of small Real Estate portfolios in mind. 
+            I built <span>Violestates</span> with owners/operators of small Real Estate portfolios in mind. 
             It allows potential renters to view, search, and apply for properties; 
             and it includes a custom CMS for the owners to update their property listings.
           </p>
@@ -155,7 +159,9 @@ export function Apps() {
         <h1>Can I list tech here?</h1>
         <article>
           <a className="app genesis">
-            <h2 className="noShow">Genesis</h2>
+            <div className="darkBack">
+              <h2>Genesis</h2>
+            </div>
           </a>
           <ul className="stack">
             <li>

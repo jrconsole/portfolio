@@ -1,18 +1,6 @@
-.tech li {
-    display: inline-flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: flex-end;
-    /* width: 8rem; */
-    margin: 1rem 2rem;
-}
-
-.tech ul {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    border: 1px solid black;
-    padding: 1rem;
+.tech {
+    font-size: 1.5rem;
+    font-weight: lighter;
 }
 
 .tech section {
@@ -25,3 +13,25 @@
     flex-flow: column;
     align-items: center;
 }
+
+.tech ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border: 5px solid rgb(41, 41, 41);
+    padding: 1rem;
+}
+
+.tech li {
+    display: inline-flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 1rem 2rem;
+}
+
+.tech li img {
+    margin-bottom: 0.5rem;
+}
+
+
