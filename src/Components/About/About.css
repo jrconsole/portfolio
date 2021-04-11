@@ -1,15 +1,53 @@
+.about {
+    font-size: 1.2rem;
+}
+
 .about main {
-    margin: 3rem;
+    margin: 0 3rem;
+}
+
+.about blockquote {
+    text-align: center;
+}
+
+.about blockquote span {
+    font-style: italic;
 }
 
 .about .centeredArea {
     display: flex;
-    justify-content: center;
+    flex-flow: column;
+    align-items: center;
 }
 
 .about .centeredArea p {
     text-align: center;
-    width: 50%;
+    line-height: 1.7rem;
+    width: 70%;
+    max-width: 60rem;
+}
+
+.about br {
+    height: 2rem;
+}
+
+.about .nav {
+    height: 6rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(41, 41, 41);
+}
+
+.about .nav a {
+    padding: 1rem;
+}
+
+.about .nav a.selected {
+    font-size: 2rem;
+    border-radius: 0.7rem;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
 }
 
 .about img {

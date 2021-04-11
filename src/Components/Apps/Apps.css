@@ -43,6 +43,14 @@
     padding: 1rem;
 }
 
+.apps article .app.genesis h2 {
+    border: none;
+}
+
+.apps article .app.genesis .darkBack:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
 .apps article .stack {
     grid-area: tech;
     align-self: flex-end;

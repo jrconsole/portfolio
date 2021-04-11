@@ -3,7 +3,7 @@ import './Books.css';
 export function Books() {
   return (
     <section className="books">
-      <h2>Favorite Books</h2>
+      <h2 className="noShow">Favorite Books</h2>
       <ul>
         <li>The Will to Meaning - Viktor Frankl
           <img src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/willToMeaning.jpg" alt="The Will to Meaning book cover" />

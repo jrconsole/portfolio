@@ -17,14 +17,6 @@ h2 {
     font-size: 3rem;
 }
 
-header p {
-    font-size: 3rem;
-}
-
-header span {
-    font-size: 2rem;
-}
-
 body {
     background-color: rgb(53, 53, 53);
     color: rgb(211, 211, 211);
@@ -42,7 +34,11 @@ button {
     letter-spacing: 1px;
     font-size: 1.5rem;
     font-weight: lighter;
-    border-radius: 0.5rem;
+    box-shadow: 2px 2px 5px;
+}
+
+button:focus {
+    outline: none;
 }
 
 .portrait {
@@ -54,7 +50,8 @@ button {
 }
 
 ul {
-    list-style-type: none;
+    list-style: none;
+    padding: 0;
 }
 
 li {

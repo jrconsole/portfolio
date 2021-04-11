@@ -3,7 +3,7 @@ import './Hobbies.css';
 export function Hobbies() {
   return (
     <section className="hobbies">
-      <h2>Hobbies</h2>
+      <h2 className="noShow">Hobbies</h2>
       <ul>
         <li>
           <img title="Hiking/Running" src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/hiking.jpg" alt="Russ Hiking" />

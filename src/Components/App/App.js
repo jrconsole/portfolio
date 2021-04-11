@@ -12,9 +12,11 @@ import { Nav } from '../Nav/Nav';
 
 function _ScrollToTop(props) {
   const { pathname } = useLocation();
+  const majorPath = pathname.split('/')[1];
+
   useEffect(() => {
       window.scrollTo(0, 0);
-  }, [pathname]);
+  }, [majorPath]);
   return props.children
 }
 const ScrollToTop = withRouter(_ScrollToTop)

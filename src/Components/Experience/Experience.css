@@ -1,0 +1,27 @@
+.experience article {
+    margin: 3rem 2rem;
+}
+
+.experience article header {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.experience article h3, .experience article p {
+    margin: 0;
+}
+
+.experience article p {
+    font-style: italic;
+}
+
+.experience article main {
+    display: flex;
+    align-items: center;
+}
+
+.experience article li {
+    display: list-item;
+    list-style: square;
+    margin: 1rem 2rem;
+}

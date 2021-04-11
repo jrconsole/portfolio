@@ -9,7 +9,6 @@ export function Tech() {
       <main>
         <section>
           <h2>Primary</h2>
-          <div>
           <ul>
             <li>
               <img 
@@ -84,7 +83,6 @@ export function Tech() {
               Mongo (Atlas)
             </li>
           </ul>
-          </div>
         </section>
         <section>
           <h2>Secondary</h2>
