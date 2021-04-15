@@ -18,7 +18,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    border: 5px solid rgb(41, 41, 41);
+    border: 5px solid var(--secondaryBackColor);
     padding: 1rem;
 }
 

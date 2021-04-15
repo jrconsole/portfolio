@@ -7,10 +7,7 @@
     padding: 2rem;
     display: grid;
     grid-template-areas: 
-        "img tech"
-        "img text"
-        "live code";
-    grid-template-rows: 3fr 3fr 2fr;
+        "img info";
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 2rem;
     align-items: center;
@@ -19,9 +16,7 @@
 
 .apps article.even {
     grid-template-areas:
-        "tech img"
-        "text img"
-        "code live";
+        "info img";
 }
 
 .apps article .app {
@@ -39,7 +34,7 @@
 }
 
 .apps article .app h2 {
-    border: 1px solid red;
+    border: 3px solid var(--popColor);
     padding: 1rem;
 }
 
@@ -51,8 +46,12 @@
     background-color: rgba(0, 0, 0, 0.7);
 }
 
+.apps article .info {
+    display: flex;
+    flex-flow: column;
+}
+
 .apps article .stack {
-    grid-area: tech;
     align-self: flex-end;
     display: flex;
     flex-flow: row wrap;
@@ -68,10 +67,12 @@
 }
 
 .apps article .code {
-    grid-area: code;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-.apps article .code a {
+.apps article section.code a {
     display: inline-flex;
     flex-flow: column;
     align-items: center;
@@ -79,12 +80,15 @@
 }
 
 .apps article .text {
-    grid-area: text;
     margin: 0;
 }
 
-.apps article .live {
-    grid-area: live;
+.apps article .text a, .apps article .text span {
+    font-weight: normal;
+}
+
+.apps article .text a {
+    border-bottom: 3px solid var(--navColor);
 }
 
 .apps article .live, .apps article .code {

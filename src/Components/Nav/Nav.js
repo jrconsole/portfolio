@@ -4,9 +4,29 @@ import { Home } from '../Home/Home';
 import { Apps } from '../Apps/Apps';
 import { Tech } from '../Tech/Tech';
 import { About } from '../About/About';
+import { useEffect } from 'react';
 
 export function Nav() {
   const { id } = useParams();
+
+  useEffect(() => {
+    let navColor;
+    switch (id) {
+      case "Apps":
+        navColor = document.documentElement.style.getPropertyValue("--tertiaryColor");
+        break;
+      case "Tech":
+        navColor = document.documentElement.style.getPropertyValue("--secondaryColor");
+        break;
+      case "About":
+        navColor = document.documentElement.style.getPropertyValue("--primaryColor");
+        break;
+      default:
+        navColor = document.documentElement.style.getPropertyValue("--primaryColor");
+    }
+
+    document.documentElement.style.setProperty("--navColor", navColor);
+  }, [id])
 
   const renderContent = (pageId) => {
     switch (pageId) {

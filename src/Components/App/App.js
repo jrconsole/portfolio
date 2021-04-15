@@ -21,7 +21,19 @@ function _ScrollToTop(props) {
 }
 const ScrollToTop = withRouter(_ScrollToTop)
 
+const initColors = () => {
+  document.documentElement.style.setProperty("--popColor", "#FF0000"); //red
+  document.documentElement.style.setProperty("--textColor", "#D3D3D3"); //greyish-white
+  document.documentElement.style.setProperty("--primaryColor", "#0D5DFF"); //light blue
+  document.documentElement.style.setProperty("--secondaryColor", "#260BDE"); //royal blue
+  document.documentElement.style.setProperty("--tertiaryColor", "#9300F5"); //purple
+  document.documentElement.style.setProperty("--quaternaryColor", "#E000C2"); //pink
+  document.documentElement.style.setProperty("--primaryBackColor", "#353535"); //light grey
+  document.documentElement.style.setProperty("--secondaryBackColor", "#292929"); //dark grey
+};
+
 export function App() {
+  initColors();
   return (
     <>
       <Router>

@@ -7,17 +7,22 @@
     margin-bottom: 1rem;
 }
 
-.experience article h3, .experience article p {
+.experience article h3 {
     margin: 0;
+    font-weight: normal;
 }
 
-.experience article p {
+.experience article header span {
     font-style: italic;
 }
 
 .experience article main {
     display: flex;
     align-items: center;
+}
+
+.experience article ul {
+    margin: 1rem;
 }
 
 .experience article li {

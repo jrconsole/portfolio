@@ -8,8 +8,8 @@ nav {
     grid-template-columns: 9rem 1fr;
     justify-items: center;
     align-items: center;
-    background-color: rgb(41, 41, 41);
-    box-shadow: 0 0.05rem 1rem red;
+    background-color: var(--secondaryBackColor);
+    box-shadow: 0 0 0.5rem var(--navColor);
 }
 
 nav ul {
@@ -40,13 +40,8 @@ nav ul a.selected {
     width: 35%;
     height: 100px;
     font-size: 3rem;
-    font-weight: lighter;
-    background-color: rgb(41, 41, 41);
-    color: rgb(211, 211, 211);
-    border: none;
-    border-radius: 1rem;
-    border-bottom: 1px solid red;
-    border-top: 1px solid red;
+    border-bottom: 5px solid var(--navColor);
+    border-top: 5px solid var(--navColor);
 }
 
 nav .toHome {
@@ -69,7 +64,13 @@ nav img {
     right: 2rem;
     z-index: 3;
     border: none;
-    box-shadow: 2px 2px 5px red;
+    border-bottom: 3px solid var(--popColor);
+    box-shadow: none;
+}
+
+#hireMe:hover {
+    font-weight: normal;
+    border-bottom: 5px solid var(--popColor);
 }
 
 .content {

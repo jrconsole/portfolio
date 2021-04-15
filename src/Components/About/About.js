@@ -24,16 +24,16 @@ export function About() {
       <header>
           <img className='portrait' src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/suit.jpg" />
         <div className="centeredArea">
-        <blockquote>
-          "<span>My name is Darth Vader. I am an extra-terrestrial from the planet Vulcan</span> 🖖"
-          <br/> 
-          - Marty McFly, BTTF
-        </blockquote>
+          <blockquote>
+            "<span>My name is Darth Vader. I am an extra-terrestrial from the planet Vulcan</span> 🖖"
+            <br/> 
+            - Marty McFly, BTTF
+          </blockquote>
           <p>
-            Hello there! I'm a full-stack developer with a love for the MERNG stack. 
-            I like long walks on the beach and coding deep into the night.
+            Hi there, I'm Russ. I'm a full-stack developer with a love for the MERNG stack. 
             I work hard to maintain a balance of speed, security, and user experience.
-            <br/><br/>Let's see what we can build together!
+            <br/>
+            Let's see what we can build together!
           </p>
         </div>
       </header>
@@ -41,7 +41,7 @@ export function About() {
 
         <ul id="subNav" className="nav">
           <Link to="/About" className={subPath === "Experience" ? "selected" : null}>Experience</Link>
-          <Link to="/About/Interests" className={subPath === "Interests" ? "selected" : null}>Professional Interests</Link>
+          <Link to="/About/Interests" className={subPath === "Interests" ? "selected" : null}>Interests</Link>
           <Link to="/About/Books" className={subPath === "Books" ? "selected" : null}>Books</Link>
           <Link to="/About/Hobbies" className={subPath === "Hobbies" ? "selected" : null}>Hobbies</Link>
         </ul>

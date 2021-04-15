@@ -20,7 +20,7 @@
     align-items: center;
 }
 
-.about .centeredArea p {
+.about header p {
     text-align: center;
     line-height: 1.7rem;
     width: 70%;
@@ -36,23 +36,33 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(41, 41, 41);
+    background-color: var(--secondaryBackColor);
 }
 
 .about .nav a {
+    width: 20%;
     padding: 1rem;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1.3rem;
+}
+
+.about .nav a:hover {
+    font-weight: normal;
+    font-size: 1.4rem;
 }
 
 .about .nav a.selected {
     font-size: 2rem;
-    border-radius: 0.7rem;
-    border-left: 1px solid red;
-    border-right: 1px solid red;
+    font-weight: lighter;
+    /* border-left: 5px solid var(--navColor);
+    border-right: 5px solid var(--navColor); */
+    border-bottom: 5px solid var(--navColor);
 }
 
 .about img {
-    max-width: 10rem;
-    max-height: 10rem;
+    max-width: 15rem;
+    max-height: 15rem;
 }
 
 .about .hobbies img {
