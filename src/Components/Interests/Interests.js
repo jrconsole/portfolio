@@ -88,6 +88,36 @@ export function Interests() {
             </p>
           </main>
         </article>
+        <article>
+          <header>
+            <h3>Dispute Resolution</h3>
+            <span>Get back to effectual work by reducing, eliminating, or streamlining the argument process.</span>
+          </header>
+          <main>
+            <img src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/smc.png" alt="Space and Missile Systems Center Logo" />
+            <p>
+              I hate arguing. Its uncomfortable, inefficient, and most times unnecessary.
+              <ul>
+                <li>
+                  <h4></h4>
+
+                </li>
+                <li>
+                  <h4></h4>
+
+                </li>
+                <li>
+                  <h4></h4>
+
+                </li>
+                <li>
+                  <h4></h4>
+
+                </li>
+              </ul>
+            </p>
+          </main>
+        </article>
       </div>
     </section>
   );
