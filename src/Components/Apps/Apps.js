@@ -67,9 +67,9 @@ export function Apps() {
               </li>
             </ul>
             <p className="text">
-              The U.S. Space Force operates the military's AEHF communications satellite constellation. 
-              <span> Genesis</span> is an app for space operators to schedule the constellation's resources across missions of varying priority.
-              As a U.S. Space Force developer, I built software to visualize all ongoing missions for a given operator's region.
+              <span> Genesis</span> is an app for U.S. Space Force (USSF) operators to manage resources for the military's AEHF communications satellite constelation.
+              As a USSF developer, I worked with Genesis' React-Redux frontend and Express backend to improve data visualization.
+              By leveraging GitLab's CI/CD pipelines, Genesis deploys, weekly, new features and fixes to the operators. 
             </p>
           </div>
         </article>

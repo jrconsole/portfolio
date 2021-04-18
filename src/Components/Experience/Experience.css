@@ -1,3 +1,9 @@
+section.experience {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
 .experience article {
     margin: 3rem 2rem;
 }
