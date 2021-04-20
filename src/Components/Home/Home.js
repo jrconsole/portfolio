@@ -11,19 +11,13 @@ export function Home() {
       </header>
       <main>
         <Link to='/Tech' className="tech">
-          <div /*className="darkBack"*/>
-            <h2>Tech</h2>
-          </div>
+            Tech
         </Link>
         <Link to='/Apps' className="apps">
-          <div /*className="darkBack"*/>
-            <h2>Apps</h2>
-          </div>
+            Apps
         </Link>
         <Link to='/About' className="about">
-          <div /*className="darkBack"*/>
-            <h2>About Me</h2>
-          </div>
+            About Me
         </Link>
       </main>
     </div>

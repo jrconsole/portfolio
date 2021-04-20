@@ -69,7 +69,7 @@ export function Apps() {
             <p className="text">
               <span> Genesis</span> is an app for U.S. Space Force (USSF) operators to manage resources for the military's AEHF communications satellite constelation.
               As a USSF developer, I worked with Genesis' React-Redux frontend and Express backend to improve data visualization.
-              By leveraging GitLab's CI/CD pipelines, Genesis deploys, weekly, new features and fixes to the operators. 
+              By leveraging GitLab's CI/CD pipelines, Genesis deploys new features and fixes to the operators weekly.
             </p>
           </div>
         </article>
