@@ -1,0 +1,24 @@
+.hobbies ul {
+    display: grid;
+    grid-template-areas: 
+                "run rocket"
+                "bike food";
+}
+
+.hobbies li {
+    display: flex;
+}
+
+.hobbies .run {
+    grid-area: run;
+    justify-content: flex-end;
+}
+
+.hobbies .rocket {
+    align-items: flex-end;
+}
+
+.hobbies .bike {
+   justify-content: flex-end;
+   align-items: flex-start; 
+}

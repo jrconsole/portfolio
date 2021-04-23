@@ -7,8 +7,7 @@ export function Apps() {
         <h1>My Apps</h1>
       </header>
       <main>
-      <h1>Can I list tech here?</h1>
-      <article>
+        <article>
           <a className="app genesis">
             <div className="darkBack">
               <h2>Genesis</h2>

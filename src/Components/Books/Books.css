@@ -1,0 +1,19 @@
+.books ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.books li {
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 12rem;
+    margin: 1rem;
+}
+
+.books li span {
+    margin-top: 1rem;
+    font-style: italic;
+}

@@ -1,0 +1,17 @@
+.interests h3 {
+    text-align: center;
+}
+
+.interests article {
+    margin-bottom: 2rem;
+}
+
+.interests article main {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.interests article main p {
+    margin: 2rem;
+}
