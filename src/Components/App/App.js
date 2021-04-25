@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -33,9 +33,17 @@ const initColors = () => {
 };
 
 export function App() {
+  const [ banner, setBanner ] = useState("banner");
+
   initColors();
   return (
     <>
+      <div className={banner}>
+        Mobile layout is under developent. For best results, view on desktop or check back after 1 May.
+        <br/>
+        - Russ, 24 May 2021
+        <button onClick={() => setBanner("noShow")}>Close</button>
+      </div>
       <Router>
         <ScrollToTop>
           <Switch>

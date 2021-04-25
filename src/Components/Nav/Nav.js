@@ -4,10 +4,13 @@ import { Home } from '../Home/Home';
 import { Apps } from '../Apps/Apps';
 import { Tech } from '../Tech/Tech';
 import { About } from '../About/About';
-import { useEffect } from 'react';
+import { Contact } from '../Contact/Contact';
+import { useState, useEffect } from 'react';
 
 export function Nav() {
   const { id } = useParams();
+
+  const [ contactActive, setContactActive ] = useState(false);
 
   useEffect(() => {
     let navColor;
@@ -52,9 +55,10 @@ export function Nav() {
         </ul>
       </nav> 
 
-      <button id="hireMe">Hire Me</button>
+      <button id="hireMe" onClick={() => setContactActive(true)}>Hire Me</button>
 
       {renderContent(id)}
+      {contactActive ? <Contact close={() => setContactActive(false)} /> : null}
     </>
   );
 }
