@@ -134,6 +134,7 @@ footer {
         width: 100%;
         text-align: center;
         justify-content: space-evenly;
+        font-weight: normal;
     }
 
     .banner button {

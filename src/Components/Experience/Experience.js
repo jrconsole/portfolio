@@ -30,7 +30,7 @@ export function Experience() {
                     <li>
                       <span>Deployed new features weekly using GitLab CI/CD pipelines. </span>
                       Within our pipeline I worked with Fortify, Sonarqube, and TruffleHog to maintain code security and best-practices.
-                      This allowed Genesis to comply the US Space Force's priority of practicing DevSecOps.
+                      This allowed Genesis to comply with the US Space Force's priority of practicing DevSecOps.
                     </li>
                     <li>
                       <span>Enabled user-input, storage, and visualization of new data. </span>
