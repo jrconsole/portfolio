@@ -67,3 +67,31 @@
 .home main a.about:hover {
     border-bottom: 5px solid var(--primaryColor);
 }
+
+@media only screen and (max-width: 600px) {
+    .home header {
+        grid-template-columns: 1fr;
+    }
+
+    .home header h1 {
+        justify-self: center;
+    }
+
+    .home header span {
+        justify-self: center;
+    }
+
+    .home header img {
+        max-height: 10rem;
+    }
+
+    .home main {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .home main a {
+        width: 70%;
+    }
+}
