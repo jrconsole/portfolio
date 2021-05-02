@@ -39,9 +39,9 @@ export function App() {
   return (
     <>
       <div className={banner}>
-        Mobile layout is under developent. For best results, view on desktop or check back after 1 May.
+        Mobile layout is under developent. For best results, view on desktop or check back after 4 May.
         <br/>
-        - Russ, 24 May 2021
+        - Russ, 1 May 2021
         <button onClick={() => setBanner("noShow")}>Close</button>
       </div>
       <Router>
