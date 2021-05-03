@@ -38,12 +38,12 @@ export function App() {
   initColors();
   return (
     <>
-      <div className={banner}>
+      {/* <div className={banner}>
         Mobile layout is under developent. For best results, view on desktop or check back after 4 May.
         <br/>
         - Russ, 1 May 2021
         <button onClick={() => setBanner("noShow")}>Close</button>
-      </div>
+      </div> */}
       <Router>
         <ScrollToTop>
           <Switch>
