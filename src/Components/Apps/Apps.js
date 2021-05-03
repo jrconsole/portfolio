@@ -38,13 +38,6 @@ export function Apps() {
               </li>
               <li>
                 <img 
-                  title="Express" 
-                  className="smallLogo"
-                  src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/express.png" 
-                  alt="Express logo" /> 
-              </li>
-              <li>
-                <img 
                   title="CouchDB" 
                   className="smallLogo"
                   src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/couchdb.png" 
@@ -63,6 +56,13 @@ export function Apps() {
                   className="smallLogo" 
                   src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/gitLab.png" 
                   alt="GitLab logo" /> 
+              </li>
+              <li>
+                <img 
+                  title="Express" 
+                  className="smallLogo"
+                  src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/express.png" 
+                  alt="Express logo" /> 
               </li>
             </ul>
             <p className="text">
@@ -89,13 +89,6 @@ export function Apps() {
                   className="smallLogo"
                   src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/react.png"
                   alt="React logo" />
-              </li>
-              <li>
-                <img 
-                  title="Express"
-                  className="smallLogo"
-                  src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/express.png"
-                  alt="Express logo" /> 
               </li>
               <li>
                 <img 
@@ -138,6 +131,13 @@ export function Apps() {
                   className="smallLogo"
                   src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/digitalOcean.png"
                   alt="Digital Ocean logo" /> 
+              </li>
+              <li>
+                <img 
+                  title="Express"
+                  className="smallLogo"
+                  src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/express.png"
+                  alt="Express logo" /> 
               </li>
             </ul>
             {/* <a 

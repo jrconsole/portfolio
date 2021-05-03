@@ -25,8 +25,9 @@
 
 .apps article .app {
     width: 100%;
-    height: 100%;
-    min-height: 35rem;
+    height: 35rem;
+    /* min-height: 35rem;
+    max-height: 50rem; */
     grid-area: img;
     display: flex;
     justify-content: center;
@@ -60,9 +61,6 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-}
-
-.apps article ul.stack {
     margin: 0;
 }
 
@@ -118,4 +116,33 @@
     align-items: center;
     justify-content: space-evenly;
     padding-inline-start: 0;
+}
+
+@media only screen and (max-width: 950px) {
+    .apps article, .apps article.even {
+        grid-template-areas: 
+                    "img" 
+                    "info";
+        grid-template-columns: 1fr;
+    }
+
+    .apps article .app {
+        max-height: 25rem;
+        min-height: 15rem;
+    }
+
+    .apps article .stack {
+        margin: 1.5rem 0;
+    }
+
+    .apps article .stack img {
+        margin: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .apps article .text, .apps article .code {
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
 }
