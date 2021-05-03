@@ -65,11 +65,6 @@
     max-height: 15rem;
 }
 
-.about .hobbies img {
-    max-width: 30rem;
-    max-height: 30rem;
-}
-
 @media only screen and (max-width: 600px) {
     .about {
         margin-bottom: 4rem;

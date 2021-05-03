@@ -22,3 +22,14 @@
    justify-content: flex-end;
    align-items: flex-start; 
 }
+
+.hobbies img {
+    max-width: 30rem;
+    max-height: 30rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .hobbies img {
+        max-width: 10rem;
+    }
+}
