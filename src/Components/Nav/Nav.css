@@ -30,7 +30,7 @@ nav ul a {
     align-items: center;
     font-size: 2rem;
     font-weight: lighter;
-    padding: 0 0.5rem;
+    padding: 0.5rem;
 }
 
 nav ul a:hover {
@@ -99,6 +99,7 @@ nav img {
 @media only screen and (max-width: 780px) {
     nav ul a {
         font-size: 1.2rem;
+        padding: 0 0.5rem;
     }
     
     nav ul a:hover {
