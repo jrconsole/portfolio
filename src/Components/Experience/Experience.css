@@ -43,7 +43,24 @@ section.experience {
 }
 
 @media only screen and (max-width: 600px) {
+    .experience article {
+        margin: 1rem;
+    }
+
     .experience article main {
         flex-flow: column;
+        margin: 0;
+    }
+
+    .experience article main ul {
+        margin: 0;
+    }
+
+    .experience article main img {
+        margin: 1rem 0;
+    }
+
+    .experience article main li {
+        margin: 2rem 1rem;
     }
 }

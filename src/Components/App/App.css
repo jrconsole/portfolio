@@ -141,7 +141,7 @@ footer {
         display: flex;
         background-color: red;
         color: black;
-        z-index: 3;
+        z-index: 4;
         position: fixed;
         top: 0;
         width: 100%;

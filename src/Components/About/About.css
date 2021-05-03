@@ -69,3 +69,43 @@
     max-width: 30rem;
     max-height: 30rem;
 }
+
+@media only screen and (max-width: 600px) {
+    .about header {
+        margin-top: 2rem;
+    }
+
+    .about header p {
+        font-size: 1.5rem;
+    }
+
+    .about main {
+        margin: 0 1rem;
+    }
+
+    .about main header {
+        margin-top: 1rem;
+    }
+
+    .about .nav {
+        height: 10rem;
+        display: grid;
+        grid-template: 1fr 1fr / 1fr 1fr;
+        justify-items: center;
+        background-color: var(--primaryBackColor);
+    }
+
+    .about .nav a {
+        width: 95%;
+        height: 90%;
+        box-sizing: border-box;
+        background-color: var(--secondaryBackColor);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about .nav a.selected {
+        font-size: 1.7rem;
+    }
+}
