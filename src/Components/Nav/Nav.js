@@ -47,7 +47,7 @@ export function Nav() {
   return (
     <>
       <nav>
-        <Link to="/" className="toHome"><img src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/riserLogo.png" /></Link>
+        <Link to="/" className="toHome"><img src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/riserNoMargin.png" /></Link>
         <ul>
           <Link to="/Tech" className={id === "Tech" ? "selected" : null}>Tech</Link>
           <Link to="/Apps" className={id === "Apps" ? "selected" : null}>Apps</Link>
