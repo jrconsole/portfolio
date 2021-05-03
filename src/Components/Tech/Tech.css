@@ -3,15 +3,15 @@
     font-weight: lighter;
 }
 
-.tech section {
-    width: 70%;
-    margin-bottom: 2rem;
-}
-
 .tech main {
     display: flex;
     flex-flow: column;
     align-items: center;
+}
+
+.tech section {
+    width: 80%;
+    margin-bottom: 2rem;
 }
 
 .tech ul {
@@ -27,7 +27,10 @@
     flex-flow: column;
     align-items: center;
     justify-content: flex-end;
-    margin: 1rem 2rem;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
 }
 
 .tech li img {
@@ -35,3 +38,10 @@
 }
 
 
+@media only screen and (max-width: 600px) {
+    .tech li {
+        width: 50%;
+        font-size: 1.2rem;
+        padding: 1rem 0;
+    }
+}

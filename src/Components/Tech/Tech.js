@@ -140,30 +140,30 @@ export function Tech() {
         <section>
           <h2>Tertiary</h2>
           <ul>
-            <li>
-              <img
-                title="GitLab CI/CD"
-                className="largeLogo"
-                src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/gitLab.png"
-                alt="GitLab logo" /> 
-              GitLab CI/CD Pipelines
-            </li>
-            <li>
-              <img
-                title="MySQL"
-                className="largeLogo"
-                src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/mysql.png"
-                alt="MySQL logo" /> 
-              MySQL
-            </li>
-            <li>
-              <img
-                title="Spring"
-                className="largeLogo"
-                src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/spring.png"
-                alt="Spring logo" /> 
-              Java Spring
-            </li>
+          <li>
+            <img
+              title="Spring"
+              className="largeLogo"
+              src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/spring.png"
+              alt="Spring logo" /> 
+            Java Spring
+          </li>
+          <li>
+            <img
+              title="MySQL"
+              className="largeLogo"
+              src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/mysql.png"
+              alt="MySQL logo" /> 
+            MySQL
+          </li>
+          <li>
+            <img
+              title="GitLab CI/CD"
+              className="largeLogo"
+              src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/gitLab.png"
+              alt="GitLab logo" /> 
+            GitLab CI/CD Pipelines
+          </li>
           </ul>
         </section>
       </main>

@@ -120,6 +120,13 @@ footer {
     .portrait {
         border-width: 3px;
     }
+
+    .largeLogo {
+        min-width: 2rem;
+        min-height: 2rem;
+        max-width: 6rem;
+        max-height: 3rem;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
