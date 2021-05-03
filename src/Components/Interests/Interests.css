@@ -15,3 +15,26 @@
 .interests article main p {
     margin: 2rem;
 }
+
+@media only screen and (max-width: 600px) {
+    section.interests {
+        margin: 1rem;
+    }
+
+    .interests article h3 {
+        font-size: 2rem;
+        margin: 1rem 0;
+    }
+
+    .interests article span {
+        text-align: center;
+    }
+
+    .interests article main {
+        flex-flow: column;
+    }
+
+    .interests article main p {
+        margin: 1rem 0;
+    }
+}
