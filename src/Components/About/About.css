@@ -66,10 +66,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .about {
-        margin-bottom: 4rem;
-    }
-
     .about header {
         margin-top: 2rem;
     }
