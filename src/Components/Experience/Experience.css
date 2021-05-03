@@ -41,3 +41,9 @@ section.experience {
 .experience article li span {
     font-weight: bold;
 }
+
+@media only screen and (max-width: 600px) {
+    .experience article main {
+        flex-flow: column;
+    }
+}

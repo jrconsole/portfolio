@@ -38,7 +38,7 @@ nav ul a:hover {
 }
 
 nav ul a.selected {
-    width: 30%;
+    width: 33%;
     font-size: 3rem;
     border-bottom: 5px solid var(--navColor);
 }
@@ -52,13 +52,13 @@ nav .toHome {
     justify-self: flex-end;
 }
 
-nav .toHome:hover {
-    padding: 0;
-}
-
 nav img {
     border: none;
     height: 4rem;
+}
+
+nav img:hover {
+    height: 4.5rem;
 }
 
 #hireMe {
@@ -102,9 +102,32 @@ nav img {
 }
 
 @media only screen and (max-width: 780px) {
+    nav {
+        height: 60px;
+        top: initial;
+        bottom: 0;
+    }
+
+    #hireMe {
+        top: 1rem;
+    }
+
+    .content {
+        margin-top: 0;
+    }
+
+    nav img {
+        height: 2.5rem;
+    }
+    
+    nav img:hover {
+        height: 3.5rem;
+    }
+
     nav ul a {
         font-size: 1.2rem;
-        padding: 0 0.5rem;
+        padding: 0;
+        height: 2.5rem;
     }
     
     nav ul a:hover {
@@ -114,5 +137,6 @@ nav img {
     nav ul a.selected, nav ul a.selected:hover {
         font-size: 1.5rem;
         font-weight: lighter;
+        border-bottom: 3px solid var(--navColor);
     }
 }

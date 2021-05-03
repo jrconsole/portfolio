@@ -46,7 +46,7 @@ export function Experience() {
                   <span>Supra Coder</span>
                 </header>
                 <main>
-                  <img src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/supra.png" alt="Delta Element Logo" />
+                  <img src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/deltaWhite.png" alt="Delta Element Logo" />
                   <ul>
                     <li>
                       <span>Undertook full-time, 3-month skill-development program in full-stack development. </span>
