@@ -43,9 +43,11 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    padding: 2rem;
+    padding: 1rem;
     height: 30vh;
-    width: 90%;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 2rem;
 }
 
 .home main a {
@@ -106,7 +108,7 @@
                         "logo"
                         "name"
                         "slogan";
-        margin: 0;
+        margin: 1rem;
     }
 
     .home .title {
@@ -124,7 +126,7 @@
     }
 
     .home header img {
-        max-height: 30vh;
+        max-height: 25vh;
         margin-bottom: 1rem;
     }
 
