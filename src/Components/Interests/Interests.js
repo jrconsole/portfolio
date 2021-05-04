@@ -62,9 +62,8 @@ export function Interests() {
           <main>
             <img src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/decentralized.png" alt="Space and Missile Systems Center Logo" />
             <p>
-              We need systems where common tasks can be executed free of control by a single third party. 
-              Its human nature for people to have conflicting objectives. 
-              In a decentralized system, the success of a person's activity should be tied more to the direct value they create, and less to the amount they align with a resource-controllling party's agenda.
+              We need systems where common tasks can be executed free of influence by a single third party. 
+              Freeing processes from burdensome policy and infrastructure requirements will allow for faster innovation.
             </p>
           </main>
         </article>
