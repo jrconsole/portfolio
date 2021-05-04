@@ -18,7 +18,7 @@ export function Interests() {
             <span>Increase access to quality, flexible, skill-based education.</span>
           </header>
           <main>
-            <img src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/skillPlatforms.jpeg" alt="Space and Missile Systems Center Logo" />
+            <img src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/skillPlatforms.png" alt="Space and Missile Systems Center Logo" />
             <p>
               We need an education solution which 
               inspires people to improve their world, 
@@ -33,7 +33,7 @@ export function Interests() {
             <span>Shorten the pipeline from product creator to product consumer</span>
           </header>
           <main>
-            <img src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/managementPlatforms.jpeg" alt="Space and Missile Systems Center Logo" />
+            <img src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/managementPlatforms.png" alt="Space and Missile Systems Center Logo" />
             <p>
               We need systems and software that enable artists and engineers to imagine and build products
               without the dilution of vision and inefficiency of middle management
