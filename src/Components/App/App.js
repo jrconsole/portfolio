@@ -58,7 +58,7 @@ export function App() {
       </Router>
 
       <footer>
-        <a href="https://github.com/jrconsole" target="_blank">
+        <a href="https://github.com/russriser" target="_blank">
           <img 
             title="GitHub" 
             className="smallLogo"

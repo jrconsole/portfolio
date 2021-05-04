@@ -155,14 +155,14 @@ export function Apps() {
               and viewing your place on the waitlist.
             </p>
             <section className="code">
-              <a href="https://github.com/jrconsole/iterate-client" target="_blank">
+              <a href="https://github.com/russriser/iterate-client" target="_blank">
                 <img 
                   title="Iterate Code" 
                   className="smallLogo"
                   src="https://russ-riser-portfolio.s3-us-west-1.amazonaws.com/github.png" />
                 <span>Front-End</span>
               </a>
-              <a href="https://github.com/jrconsole/iterate-server" target="_blank">
+              <a href="https://github.com/russriser/iterate-server" target="_blank">
                 <img 
                   title="Iterate Code" 
                   className="smallLogo"
@@ -217,7 +217,7 @@ export function Apps() {
               It allows potential renters to view, search, and apply for properties; 
               and it includes a custom CMS for the owners to update their property listings.
             </p>
-            <a className="code" href="https://github.com/jrconsole/violestates" target="_blank">
+            <a className="code" href="https://github.com/russriser/violestates" target="_blank">
               <img 
                 title="Violestates Code" 
                 className="smallLogo"
