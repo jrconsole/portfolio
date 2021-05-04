@@ -6,6 +6,11 @@
     margin-bottom: 2rem;
 }
 
+.interests article h3 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
 .interests article main {
     margin-top: 1rem;
     display: flex;
@@ -19,11 +24,6 @@
 @media only screen and (max-width: 600px) {
     section.interests {
         margin: 1rem;
-    }
-
-    .interests article h3 {
-        font-size: 2rem;
-        margin: 1rem 0;
     }
 
     .interests article span {
