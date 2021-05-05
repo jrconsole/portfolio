@@ -1,0 +1,22 @@
+domains:
+- domain: russriser.com
+  type: PRIMARY
+  zone: russriser.com
+name: portfolio
+region: nyc
+static_sites:
+- build_command: npm run build
+  environment_slug: node-js
+  github:
+    branch: master
+    deploy_on_push: true
+    repo: russriser/portfolio
+  name: portfolio
+  routes:
+  - path: /
+  - path: /Tech
+  - path: /Apps
+  - path: /About
+  - path: /About/Interests
+  - path: /About/Books
+  - path: /About/Hobbies

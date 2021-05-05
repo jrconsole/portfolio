@@ -21,7 +21,7 @@ function _ScrollToTop(props) {
 }
 const ScrollToTop = withRouter(_ScrollToTop)
 
-const initColors = () => {
+const initCSSVars = () => {
   document.documentElement.style.setProperty("--popColor", "#FF0000"); //red
   document.documentElement.style.setProperty("--textColor", "#D3D3D3"); //greyish-white
   document.documentElement.style.setProperty("--primaryColor", "#0D5DFF"); //light blue
@@ -30,12 +30,17 @@ const initColors = () => {
   document.documentElement.style.setProperty("--quaternaryColor", "#E000C2"); //pink
   document.documentElement.style.setProperty("--primaryBackColor", "#353535"); //light grey
   document.documentElement.style.setProperty("--secondaryBackColor", "#292929"); //dark grey
+
+  // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
+  let vh = window.innerHeight * 0.01;
+  // Then we set the value in the --vh custom property to the root of the document
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
 };
 
 export function App() {
   const [ banner, setBanner ] = useState("banner");
 
-  initColors();
+  initCSSVars();
   return (
     <>
       {/* <div className={banner}>
